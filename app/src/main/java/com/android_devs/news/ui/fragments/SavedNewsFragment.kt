@@ -9,12 +9,11 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.android_devs.news.R
-import com.android_devs.news.adapter.NewsAdapter
-import com.android_devs.news.ui.NewsActivity
-import com.android_devs.news.ui.NewsViewModel
+import com.android_devs.news.ui.adapter.NewsAdapter
+import com.android_devs.news.ui.news.NewsActivity
+import com.android_devs.news.ui.news.NewsViewModel
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_saved_news.*
-import kotlinx.android.synthetic.main.fragment_search_news.*
 
 class SavedNewsFragment : Fragment(R.layout.fragment_saved_news) {
     lateinit var viewModel: NewsViewModel

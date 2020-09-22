@@ -1,6 +1,5 @@
 package com.android_devs.news.ui.fragments
 
-import android.graphics.ColorSpace
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -9,9 +8,9 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.android_devs.news.R
-import com.android_devs.news.adapter.NewsAdapter
-import com.android_devs.news.ui.NewsActivity
-import com.android_devs.news.ui.NewsViewModel
+import com.android_devs.news.ui.adapter.NewsAdapter
+import com.android_devs.news.ui.news.NewsActivity
+import com.android_devs.news.ui.news.NewsViewModel
 import com.android_devs.news.util.Resource
 import kotlinx.android.synthetic.main.fragment_breaking_news.*
 

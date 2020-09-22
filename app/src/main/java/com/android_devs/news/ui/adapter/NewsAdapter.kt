@@ -1,4 +1,4 @@
-package com.android_devs.news.adapter
+package com.android_devs.news.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View

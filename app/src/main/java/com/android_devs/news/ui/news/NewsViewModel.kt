@@ -1,4 +1,4 @@
-package com.android_devs.news.ui
+package com.android_devs.news.ui.news
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -14,9 +14,11 @@ class NewsViewModel(val newsRepository: NewsRepository) : ViewModel() {
 
     val breakingNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
     private val breakingNewsPage = 1
+    val breakingNewsResponse: NewsResponse? = null
 
     val saerchNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
     private val searchNewsPage = 1
+    val searchNewsResponse: NewsResponse? = null
 
     init {
         getBreakingNews("us")
